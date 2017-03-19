@@ -254,21 +254,25 @@ input[type=submit] {
     }
     
     .main-section {
-        width: 100%;
+        max-width: 98%;
     }
     
     .auth-image {
-        width: 100%;
+        width: 98%;
     
     }
     
     .sidebar {
         float: left;
-        max-width: 625px;
+        max-width: 600px;
     }
+    
+    /*contact form*/
+    
+    
 }
 
-@media only screen and (max-width: 768px, min-width: 650px) {
+/*@media only screen and (max-width: 768px, min-width: 650px) {
     
     nav {
         float: none;
@@ -278,16 +282,44 @@ input[type=submit] {
     }
     
     .main-section {
-        max-width: 750px;
-
-        
+        float: left;
+        width: 750px;
     }
     
     .sidebar {
         float: left;
         max-width: 750px;
+        
     }
-}
+}*/
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    
+    nav {
+        float: none;
+        position: fixed;
+        margin-left: 400px;
+        }
+    
+    .main-section {
+        max-width: 90%;
+        float: none;
+        }
+    .auth-image {
+        width: 55%;
+    }
+    
+    .sidebar {
+        max-width: 680px;
+        float:none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+      }
+             footer {
+      max-width: 768px;
+      max-height: 35px;
+         }
+  }
 
 @media only screen and (max-width: 980px, min-width: 790px) {
     nav {
